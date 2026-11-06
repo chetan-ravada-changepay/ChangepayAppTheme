@@ -1,4 +1,4 @@
-part of 'package:esamudaay_themes/esamudaay_themes.dart';
+part of 'package:changepay_theme/changepay_theme.dart';
 
 class AppColorScheme {
   static const Color shadowColor16 = const Color(0x29242424);

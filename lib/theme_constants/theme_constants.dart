@@ -1,4 +1,4 @@
-part of 'package:esamudaay_themes/esamudaay_themes.dart';
+part of 'package:changepay_theme/changepay_theme.dart';
 
 // class contains all the colors needed throughout the app.
 // add more colors here if needed and also override new colors in extended classes.

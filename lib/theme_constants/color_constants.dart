@@ -1,4 +1,4 @@
-part of 'package:esamudaay_themes/esamudaay_themes.dart';
+part of 'package:changepay_theme/changepay_theme.dart';
 
 class _ColorConstants {
   static Color get brandViolet => const Color(0xFF5f3a9f);

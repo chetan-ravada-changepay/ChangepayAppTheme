@@ -1,4 +1,4 @@
-part of 'package:esamudaay_themes/esamudaay_themes.dart';
+part of 'package:changepay_theme/changepay_theme.dart';
 
 // extension to get colors for light theme.
 class _MerchantPrimaryThemeColors with AppThemeColors {

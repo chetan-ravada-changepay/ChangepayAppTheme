@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="nexus-mark-title nexus-mark-desc">
+  <title id="nexus-mark-title">Nexus AI</title>
+  <desc id="nexus-mark-desc">A minimal monochrome symbol made from three offset, ascending strokes. Solid black, softly rounded ends and a transparent background.</desc>
+  <g fill="#111111" transform="rotate(-24 32 32)">
+    <rect x="24" y="9" width="24" height="11" rx="5.5"/>
+    <rect x="8" y="26.5" width="48" height="11" rx="5.5"/>
+    <rect x="16" y="44" width="24" height="11" rx="5.5"/>
+  </g>
+</svg>

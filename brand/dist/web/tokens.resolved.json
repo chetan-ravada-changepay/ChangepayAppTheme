@@ -1,0 +1,3212 @@
+{
+  "version": "1.0.0",
+  "palette": {
+    "indigo": {
+      "50": "#F1EEFA",
+      "100": "#E2DCF5",
+      "200": "#C5B9EB",
+      "300": "#A08DDC",
+      "400": "#7A60C9",
+      "500": "#5A3DB3",
+      "600": "#45289D",
+      "700": "#381987",
+      "800": "#2C136C",
+      "900": "#210F52",
+      "950": "#140934"
+    },
+    "teal": {
+      "50": "#EAFBFA",
+      "100": "#CBF4F2",
+      "200": "#98E8E4",
+      "300": "#5CD6D1",
+      "400": "#22BFB9",
+      "500": "#01AAA5",
+      "600": "#008984",
+      "700": "#016E6B",
+      "800": "#055856",
+      "900": "#084847",
+      "950": "#002B2B"
+    },
+    "plum": {
+      "50": "#FBEFF8",
+      "100": "#F6DCEF",
+      "200": "#EDB7DE",
+      "300": "#DF85C6",
+      "400": "#C94FA6",
+      "500": "#A82487",
+      "600": "#8E1279",
+      "700": "#750C6F",
+      "800": "#5E0B5A",
+      "900": "#4A0A47",
+      "950": "#2C022A"
+    },
+    "magenta": {
+      "300": "#FF85B5",
+      "400": "#FF4D94",
+      "500": "#ED0066",
+      "600": "#C4005A"
+    },
+    "sunset": {
+      "50": "#FFF2EF",
+      "100": "#FFE2DC",
+      "200": "#FFC4B9",
+      "300": "#FE9C8B",
+      "400": "#F97A68",
+      "500": "#F65F4F",
+      "600": "#C9392A",
+      "700": "#A82E21",
+      "800": "#8A281E",
+      "900": "#72241C",
+      "950": "#3F100A"
+    },
+    "violet": {
+      "50": "#F4F0FB",
+      "100": "#E9E1F7",
+      "200": "#D3C4EE",
+      "300": "#B7A2DD",
+      "400": "#9478CB",
+      "500": "#7752B8",
+      "600": "#5F3A9F",
+      "700": "#4E3083",
+      "800": "#3C2566",
+      "900": "#2B1A49",
+      "950": "#211438"
+    },
+    "blue": {
+      "50": "#EFF4FF",
+      "100": "#DCE6FE",
+      "200": "#BACDFC",
+      "300": "#8CABF8",
+      "400": "#5B83F1",
+      "500": "#3966E6",
+      "600": "#2450CC",
+      "700": "#1E40A6",
+      "800": "#1D3784",
+      "900": "#1C306A",
+      "950": "#121D40"
+    },
+    "rose": {
+      "50": "#FEF1F5",
+      "100": "#FDE2EA",
+      "200": "#FAC4D5",
+      "300": "#F497B3",
+      "400": "#EB6B91",
+      "500": "#E1517D",
+      "600": "#BE2F5C",
+      "700": "#9F244B",
+      "800": "#832141",
+      "900": "#6E1F3A",
+      "950": "#40091D"
+    },
+    "ink": {
+      "0": "#FFFFFF",
+      "25": "#FBFAFD",
+      "50": "#F6F5F9",
+      "100": "#EEEDF3",
+      "200": "#E1DFE8",
+      "300": "#C9C6D3",
+      "400": "#A29EB0",
+      "500": "#7C778C",
+      "600": "#5D586D",
+      "700": "#454152",
+      "800": "#2E2B38",
+      "900": "#1C1A23",
+      "950": "#121117"
+    },
+    "green": {
+      "50": "#ECFDF3",
+      "100": "#D1FADF",
+      "400": "#32D583",
+      "500": "#12B76A",
+      "600": "#03884C",
+      "700": "#05603A",
+      "900": "#053321"
+    },
+    "amber": {
+      "50": "#FFFAEB",
+      "100": "#FEF0C7",
+      "400": "#FDB022",
+      "500": "#F79009",
+      "600": "#B54708",
+      "700": "#93370D",
+      "900": "#4E1D09"
+    },
+    "red": {
+      "50": "#FEF3F2",
+      "100": "#FEE4E2",
+      "400": "#F97066",
+      "500": "#F04438",
+      "600": "#C8291D",
+      "700": "#9A1C13",
+      "900": "#55160C"
+    }
+  },
+  "products": {
+    "consumer": {
+      "name": "ConsumerApp",
+      "descriptor": "",
+      "scale": "indigo",
+      "gradient": [
+        "#381987",
+        "#01AAA5"
+      ],
+      "accent": "teal.500",
+      "accentDark": "teal.400",
+      "usage": "Shoppers: browse, order, pay, loyalty. Flagship — its gradient is the master brand gradient.",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#45289D",
+        "primaryHover": "#381987",
+        "primaryPressed": "#2C136C",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#F1EEFA",
+        "onPrimarySubtle": "#381987",
+        "primaryBorder": "#C5B9EB",
+        "accent": "#01AAA5",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#5A3DB3",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#A08DDC",
+        "primaryHover": "#C5B9EB",
+        "primaryPressed": "#E2DCF5",
+        "onPrimary": "#121117",
+        "primarySubtle": "#140934",
+        "onPrimarySubtle": "#C5B9EB",
+        "primaryBorder": "#2C136C",
+        "accent": "#22BFB9",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#7A60C9",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    },
+    "seller": {
+      "name": "SellerApp",
+      "descriptor": "Seller",
+      "scale": "sunset",
+      "gradient": [
+        "#F65F4F",
+        "#FDA73B"
+      ],
+      "accent": "amber.400",
+      "accentDark": "amber.400",
+      "usage": "Merchants: catalog, orders, payouts",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#C9392A",
+        "primaryHover": "#A82E21",
+        "primaryPressed": "#8A281E",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#FFF2EF",
+        "onPrimarySubtle": "#A82E21",
+        "primaryBorder": "#FFC4B9",
+        "accent": "#FDB022",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#F65F4F",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#FE9C8B",
+        "primaryHover": "#FFC4B9",
+        "primaryPressed": "#FFE2DC",
+        "onPrimary": "#121117",
+        "primarySubtle": "#3F100A",
+        "onPrimarySubtle": "#FFC4B9",
+        "primaryBorder": "#8A281E",
+        "accent": "#FDB022",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#F97A68",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    },
+    "delivery": {
+      "name": "DeliveryApp",
+      "descriptor": "Delivery",
+      "scale": "plum",
+      "gradient": [
+        "#750C6F",
+        "#ED0066"
+      ],
+      "accent": "magenta.400",
+      "accentDark": "magenta.400",
+      "usage": "Riders: pickups, routes, proof of delivery",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#8E1279",
+        "primaryHover": "#750C6F",
+        "primaryPressed": "#5E0B5A",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#FBEFF8",
+        "onPrimarySubtle": "#750C6F",
+        "primaryBorder": "#EDB7DE",
+        "accent": "#FF4D94",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#A82487",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#DF85C6",
+        "primaryHover": "#EDB7DE",
+        "primaryPressed": "#F6DCEF",
+        "onPrimary": "#121117",
+        "primarySubtle": "#2C022A",
+        "onPrimarySubtle": "#EDB7DE",
+        "primaryBorder": "#5E0B5A",
+        "accent": "#FF4D94",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#C94FA6",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    },
+    "console": {
+      "name": "Cp-Console",
+      "descriptor": "Console",
+      "scale": "violet",
+      "gradient": [
+        "#3C2566",
+        "#9478CB"
+      ],
+      "accent": "teal.400",
+      "accentDark": "teal.400",
+      "usage": "Internal ops & admin",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#5F3A9F",
+        "primaryHover": "#4E3083",
+        "primaryPressed": "#3C2566",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#F4F0FB",
+        "onPrimarySubtle": "#4E3083",
+        "primaryBorder": "#D3C4EE",
+        "accent": "#22BFB9",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#7752B8",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#B7A2DD",
+        "primaryHover": "#D3C4EE",
+        "primaryPressed": "#E9E1F7",
+        "onPrimary": "#121117",
+        "primarySubtle": "#211438",
+        "onPrimarySubtle": "#D3C4EE",
+        "primaryBorder": "#3C2566",
+        "accent": "#22BFB9",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#9478CB",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    },
+    "events": {
+      "name": "Event Dashboard",
+      "descriptor": "Events",
+      "scale": "violet",
+      "gradient": [
+        "#5F3A9F",
+        "#3966E6"
+      ],
+      "accent": "blue.400",
+      "accentDark": "blue.400",
+      "usage": "Live event monitoring",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#5F3A9F",
+        "primaryHover": "#4E3083",
+        "primaryPressed": "#3C2566",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#F4F0FB",
+        "onPrimarySubtle": "#4E3083",
+        "primaryBorder": "#D3C4EE",
+        "accent": "#5B83F1",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#7752B8",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#B7A2DD",
+        "primaryHover": "#D3C4EE",
+        "primaryPressed": "#E9E1F7",
+        "onPrimary": "#121117",
+        "primarySubtle": "#211438",
+        "onPrimarySubtle": "#D3C4EE",
+        "primaryBorder": "#3C2566",
+        "accent": "#5B83F1",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#9478CB",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    },
+    "kampus": {
+      "name": "KampusKonnect",
+      "descriptor": "Kampus Konnect",
+      "scale": "blue",
+      "gradient": [
+        "#2450CC",
+        "#38BDF8"
+      ],
+      "accent": "#38BDF8",
+      "accentDark": "#38BDF8",
+      "usage": "Campus commerce & identity",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#2450CC",
+        "primaryHover": "#1E40A6",
+        "primaryPressed": "#1D3784",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#EFF4FF",
+        "onPrimarySubtle": "#1E40A6",
+        "primaryBorder": "#BACDFC",
+        "accent": "#38BDF8",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#3966E6",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#8CABF8",
+        "primaryHover": "#BACDFC",
+        "primaryPressed": "#DCE6FE",
+        "onPrimary": "#121117",
+        "primarySubtle": "#121D40",
+        "onPrimarySubtle": "#BACDFC",
+        "primaryBorder": "#1D3784",
+        "accent": "#38BDF8",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#5B83F1",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    },
+    "menu": {
+      "name": "Menu2CpayCatalog",
+      "descriptor": "Menu",
+      "scale": "rose",
+      "gradient": [
+        "#E1517D",
+        "#ED7325"
+      ],
+      "accent": "#ED7325",
+      "accentDark": "#F59A5C",
+      "usage": "Embeddable menus & catalogs",
+      "light": {
+        "bg": "#FBFAFD",
+        "surface": "#FFFFFF",
+        "surfaceSunken": "#F6F5F9",
+        "surfaceRaised": "#FFFFFF",
+        "border": "#E1DFE8",
+        "borderStrong": "#C9C6D3",
+        "divider": "#EEEDF3",
+        "text": "#1C1A23",
+        "textMuted": "#5D586D",
+        "textSubtle": "#7C778C",
+        "textDisabled": "#A29EB0",
+        "textInverse": "#FFFFFF",
+        "primary": "#BE2F5C",
+        "primaryHover": "#9F244B",
+        "primaryPressed": "#832141",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#FEF1F5",
+        "onPrimarySubtle": "#9F244B",
+        "primaryBorder": "#FAC4D5",
+        "accent": "#ED7325",
+        "onAccent": "#121117",
+        "success": "#03884C",
+        "successSubtle": "#ECFDF3",
+        "onSuccessSubtle": "#05603A",
+        "warning": "#B54708",
+        "warningSubtle": "#FFFAEB",
+        "onWarningSubtle": "#93370D",
+        "danger": "#C8291D",
+        "dangerSubtle": "#FEF3F2",
+        "onDangerSubtle": "#9A1C13",
+        "info": "#2450CC",
+        "infoSubtle": "#EFF4FF",
+        "onInfoSubtle": "#1E40A6",
+        "focusRing": "#E1517D",
+        "scrim": "rgb(18 17 23 / 48%)"
+      },
+      "dark": {
+        "bg": "#121117",
+        "surface": "#1C1A23",
+        "surfaceSunken": "#0C0B10",
+        "surfaceRaised": "#2E2B38",
+        "border": "#454152",
+        "borderStrong": "#5D586D",
+        "divider": "#2E2B38",
+        "text": "#F6F5F9",
+        "textMuted": "#C9C6D3",
+        "textSubtle": "#A29EB0",
+        "textDisabled": "#5D586D",
+        "textInverse": "#121117",
+        "primary": "#F497B3",
+        "primaryHover": "#FAC4D5",
+        "primaryPressed": "#FDE2EA",
+        "onPrimary": "#121117",
+        "primarySubtle": "#40091D",
+        "onPrimarySubtle": "#FAC4D5",
+        "primaryBorder": "#832141",
+        "accent": "#F59A5C",
+        "onAccent": "#121117",
+        "success": "#32D583",
+        "successSubtle": "#053321",
+        "onSuccessSubtle": "#D1FADF",
+        "warning": "#FDB022",
+        "warningSubtle": "#4E1D09",
+        "onWarningSubtle": "#FEF0C7",
+        "danger": "#F97066",
+        "dangerSubtle": "#55160C",
+        "onDangerSubtle": "#FEE4E2",
+        "info": "#8CABF8",
+        "infoSubtle": "#121D40",
+        "onInfoSubtle": "#DCE6FE",
+        "focusRing": "#EB6B91",
+        "scrim": "rgb(0 0 0 / 64%)"
+      }
+    }
+  },
+  "font": {
+    "display": {
+      "family": "Plus Jakarta Sans",
+      "fallback": "'Noto Sans', system-ui, sans-serif",
+      "weights": [
+        600,
+        700,
+        800
+      ]
+    },
+    "text": {
+      "family": "Inter",
+      "fallback": "'Noto Sans', -apple-system, 'Segoe UI', Roboto, system-ui, sans-serif",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "fallback": "ui-monospace, 'SF Mono', Menlo, monospace",
+      "weights": [
+        400,
+        600
+      ]
+    }
+  },
+  "type": {
+    "displayLg": {
+      "font": "display",
+      "size": 40,
+      "line": 48,
+      "weight": 800,
+      "tracking": -0.02
+    },
+    "display": {
+      "font": "display",
+      "size": 32,
+      "line": 40,
+      "weight": 800,
+      "tracking": -0.02
+    },
+    "h1": {
+      "font": "display",
+      "size": 28,
+      "line": 36,
+      "weight": 700,
+      "tracking": -0.015
+    },
+    "h2": {
+      "font": "display",
+      "size": 24,
+      "line": 32,
+      "weight": 700,
+      "tracking": -0.01
+    },
+    "h3": {
+      "font": "display",
+      "size": 20,
+      "line": 28,
+      "weight": 700,
+      "tracking": -0.005
+    },
+    "title": {
+      "font": "text",
+      "size": 17,
+      "line": 24,
+      "weight": 600,
+      "tracking": -0.01
+    },
+    "bodyLg": {
+      "font": "text",
+      "size": 16,
+      "line": 24,
+      "weight": 400,
+      "tracking": -0.005
+    },
+    "body": {
+      "font": "text",
+      "size": 14,
+      "line": 20,
+      "weight": 400,
+      "tracking": 0
+    },
+    "bodyStrong": {
+      "font": "text",
+      "size": 14,
+      "line": 20,
+      "weight": 600,
+      "tracking": 0
+    },
+    "label": {
+      "font": "text",
+      "size": 15,
+      "line": 20,
+      "weight": 600,
+      "tracking": -0.005
+    },
+    "labelSm": {
+      "font": "text",
+      "size": 13,
+      "line": 16,
+      "weight": 600,
+      "tracking": 0
+    },
+    "caption": {
+      "font": "text",
+      "size": 12,
+      "line": 16,
+      "weight": 500,
+      "tracking": 0.005
+    },
+    "overline": {
+      "font": "text",
+      "size": 11,
+      "line": 16,
+      "weight": 600,
+      "tracking": 0.06,
+      "upper": true
+    },
+    "amountXl": {
+      "font": "display",
+      "size": 40,
+      "line": 48,
+      "weight": 800,
+      "tracking": -0.02,
+      "tabular": true
+    },
+    "amount": {
+      "font": "display",
+      "size": 24,
+      "line": 32,
+      "weight": 700,
+      "tracking": -0.01,
+      "tabular": true
+    },
+    "code": {
+      "font": "mono",
+      "size": 13,
+      "line": 20,
+      "weight": 400,
+      "tracking": 0
+    }
+  },
+  "space": {
+    "0": 0,
+    "1": 4,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20,
+    "6": 24,
+    "8": 32,
+    "10": 40,
+    "12": 48,
+    "16": 64,
+    "20": 80,
+    "0.5": 2
+  },
+  "radius": {
+    "none": 0,
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "2xl": 32,
+    "pill": 999
+  },
+  "size": {
+    "touchMin": 44,
+    "iconSm": 16,
+    "icon": 24,
+    "iconLg": 32,
+    "buttonSm": 36,
+    "button": 48,
+    "buttonLg": 56,
+    "input": 48,
+    "appBar": 56,
+    "tabBar": 64
+  },
+  "motion": {
+    "duration": {
+      "instant": 100,
+      "fast": 150,
+      "base": 200,
+      "moderate": 300,
+      "slow": 450,
+      "deliberate": 600,
+      "shimmer": 1400
+    },
+    "easing": {
+      "standard": [
+        0.2,
+        0,
+        0,
+        1
+      ],
+      "enter": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "exit": [
+        0.3,
+        0,
+        1,
+        1
+      ],
+      "emphasized": [
+        0.3,
+        0,
+        0,
+        1
+      ],
+      "linear": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "spring": {
+      "snappy": {
+        "response": 0.3,
+        "damping": 0.86
+      },
+      "smooth": {
+        "response": 0.45,
+        "damping": 1
+      },
+      "bouncy": {
+        "response": 0.5,
+        "damping": 0.7
+      }
+    },
+    "patterns": {
+      "press": {
+        "duration": "instant",
+        "easing": "standard",
+        "spec": "scale 1 → 0.97, overlay +12%; release springs back (snappy)"
+      },
+      "hover": {
+        "duration": "fast",
+        "easing": "standard",
+        "spec": "overlay +6%, shadow e1 → e2"
+      },
+      "fade": {
+        "duration": "fast",
+        "easing": "standard",
+        "spec": "opacity only — tooltips, toasts out, swaps"
+      },
+      "expand": {
+        "duration": "base",
+        "easing": "standard",
+        "spec": "accordions, chips, inline validation"
+      },
+      "pageEnter": {
+        "duration": "moderate",
+        "easing": "emphasized",
+        "spec": "slide 24px + fade in; platform-native push on iOS/Android"
+      },
+      "pageExit": {
+        "duration": "base",
+        "easing": "exit",
+        "spec": "fade out + 8px slide"
+      },
+      "sheetEnter": {
+        "duration": "moderate",
+        "easing": "enter",
+        "spec": "bottom sheet / dialog rises from 100% → 0, scrim fades to 48%"
+      },
+      "sheetExit": {
+        "duration": "base",
+        "easing": "exit",
+        "spec": "reverse of sheetEnter, faster"
+      },
+      "toast": {
+        "duration": "moderate",
+        "easing": "emphasized",
+        "spec": "drop 16px + fade; auto-dismiss 4s"
+      },
+      "success": {
+        "duration": "deliberate",
+        "easing": "emphasized",
+        "spec": "payment success: circle scales 0.6→1 (bouncy), check stroke draws, coral sparks burst once"
+      },
+      "skeleton": {
+        "duration": "shimmer",
+        "easing": "linear",
+        "spec": "left→right sheen, infinite; replaced by content with fade"
+      },
+      "numberTick": {
+        "duration": "slow",
+        "easing": "standard",
+        "spec": "amounts/balances count to new value, tabular figures"
+      }
+    },
+    "reducedMotion": "When the OS requests reduced motion: replace slides/scales with opacity fades ≤150ms, disable shimmer (static placeholder), disable sparks and number ticks."
+  },
+  "effect": {
+    "focusRingWidth": 3,
+    "focusRingOffset": 2,
+    "focusRingAlpha": 0.35,
+    "glassBlur": 20,
+    "glassTintLight": "ink.0/72",
+    "glassTintDark": "ink.900/64",
+    "glassBorderLight": "ink.0/60",
+    "glassBorderDark": "ink.0/10",
+    "disabledOpacity": 0.4,
+    "pressedScale": 0.97,
+    "hoverOverlay": 0.06,
+    "pressedOverlay": 0.12
+  },
+  "zIndex": {
+    "base": 0,
+    "sticky": 100,
+    "appBar": 200,
+    "dropdown": 300,
+    "overlay": 400,
+    "sheet": 500,
+    "toast": 600,
+    "tooltip": 700
+  },
+  "breakpoint": {
+    "sm": 640,
+    "md": 768,
+    "lg": 1024,
+    "xl": 1280,
+    "2xl": 1536
+  },
+  "contrastReport": [
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 10.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 12.67,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 11.07,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 10.28,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 9.88,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 6.52,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 7.63,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 6.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 10.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.29,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 6.01,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 6.56,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 8.25,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "consumer",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 3.56,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 5.12,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 6.82,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 6.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 5.12,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 4.92,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 10.2,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 3.15,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 9.25,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 12.38,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.74,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 8.47,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 9.25,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 10.2,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "seller",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 6.56,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 8.36,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 10.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 9.22,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 8.36,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 8.04,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 6.03,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 6.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 7.43,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 11.11,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.82,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 6.8,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 7.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 6.03,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "delivery",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 4.22,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 8.1,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 10.12,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 9.02,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 8.1,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 7.79,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 8.25,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 5.7,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 8.25,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 11.54,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 7.55,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 8.25,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 8.25,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "console",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 4.76,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 8.1,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 10.12,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 9.02,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 8.1,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 7.79,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 5.33,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 5.7,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 8.25,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 11.54,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 7.55,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 8.25,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 5.33,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "events",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 4.76,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 6.79,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 8.98,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 6.79,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 6.53,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 8.77,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 4.98,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 8.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 11.83,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.37,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 7.61,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 8.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 8.77,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "kampus",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 4.88,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "text on bg",
+      "ratio": 16.53,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "text on surface",
+      "ratio": 17.19,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "textMuted on surface",
+      "ratio": 6.81,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "textMuted on bg",
+      "ratio": 6.55,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "textSubtle on surface",
+      "ratio": 4.31,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onPrimary on primary",
+      "ratio": 5.6,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 7.43,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 6.76,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "primary on surface",
+      "ratio": 5.6,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "primary on bg",
+      "ratio": 5.38,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onAccent on accent",
+      "ratio": 6.33,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "success on surface",
+      "ratio": 4.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "warning on surface",
+      "ratio": 5.43,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "danger on surface",
+      "ratio": 5.54,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 7.26,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 7.21,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 7.58,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 8.15,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "light",
+      "pair": "focusRing on surface",
+      "ratio": 3.7,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "text on bg",
+      "ratio": 17.3,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "text on surface",
+      "ratio": 15.84,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "textMuted on surface",
+      "ratio": 10.24,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "textMuted on bg",
+      "ratio": 11.18,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "textSubtle on surface",
+      "ratio": 6.59,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onPrimary on primary",
+      "ratio": 8.87,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onPrimary on primaryHover",
+      "ratio": 12.45,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onPrimarySubtle on primarySubtle",
+      "ratio": 10.92,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "primary on surface",
+      "ratio": 8.13,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "primary on bg",
+      "ratio": 8.87,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onAccent on accent",
+      "ratio": 8.64,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "success on surface",
+      "ratio": 8.99,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "warning on surface",
+      "ratio": 9.34,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "danger on surface",
+      "ratio": 6.17,
+      "min": 3,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onSuccessSubtle on successSubtle",
+      "ratio": 12.28,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onWarningSubtle on warningSubtle",
+      "ratio": 12.31,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onDangerSubtle on dangerSubtle",
+      "ratio": 11.56,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "onInfoSubtle on infoSubtle",
+      "ratio": 13.17,
+      "min": 4.5,
+      "ok": true
+    },
+    {
+      "product": "menu",
+      "mode": "dark",
+      "pair": "focusRing on surface",
+      "ratio": 5.77,
+      "min": 3,
+      "ok": true
+    }
+  ]
+}

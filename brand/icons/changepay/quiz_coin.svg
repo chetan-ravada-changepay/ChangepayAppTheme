@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="quiz-title quiz-desc">
+  <title id="quiz-title">Quiz coin</title>
+  <desc id="quiz-desc">Violet coin with a raised question mark.</desc>
+  <defs>
+    <linearGradient id="quiz-rim" x1="25" y1="15" x2="101" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EBE1FF"/>
+      <stop offset=".48" stop-color="#B795FA"/>
+      <stop offset="1" stop-color="#7950CD"/>
+    </linearGradient>
+    <radialGradient id="quiz-face" cx="46" cy="37" r="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B79AF1"/>
+      <stop offset=".6" stop-color="#9467E0"/>
+      <stop offset="1" stop-color="#7041BD"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="67" r="54" fill="#361A79"/>
+  <circle cx="64" cy="64" r="54" fill="#54309E"/>
+  <circle cx="64" cy="60" r="54" fill="url(#quiz-rim)"/>
+  <circle cx="64" cy="60" r="52.5" stroke="#EBE1FF" stroke-opacity=".55"/>
+  <circle cx="64" cy="60" r="44" fill="#6740AD"/>
+  <circle cx="64" cy="61" r="42" fill="#EBE1FF"/>
+  <circle cx="64" cy="60" r="41.5" fill="url(#quiz-face)"/>
+  <path d="M23 40A46 46 0 0 1 43 19" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M19 52L20 48" stroke="#FFFFFF" stroke-opacity=".65" stroke-width="3" stroke-linecap="round"/>
+  <path d="M87 100A46 46 0 0 0 105 80" stroke="#361A79" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <path d="M52 48C52 40 57 36 64 36C71 36 77 40 77 47C77 53 73 56 68 59C65 61 64 63 64 67" stroke="#55308F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 2)"/>
+  <circle cx="64" cy="82" r="4.8" fill="#55308F"/>
+  <path d="M52 48C52 40 57 36 64 36C71 36 77 40 77 47C77 53 73 56 68 59C65 61 64 63 64 67" stroke="#FFFAFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="80" r="4.8" fill="#FFFAFF"/>
+</svg>
+

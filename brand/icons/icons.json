@@ -1,0 +1,542 @@
+{
+ "sources": [
+  "MobileApps/ConsumerApp/assets/icons",
+  "MobileApps/SellerApp/assets/icons"
+ ],
+ "icons": {
+  "about": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/about.svg",
+   "source": "ConsumerApp"
+  },
+  "account_about": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_about.svg",
+   "source": "ConsumerApp"
+  },
+  "account_address": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_address.svg",
+   "source": "ConsumerApp"
+  },
+  "account_circles": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_circles.svg",
+   "source": "ConsumerApp"
+  },
+  "account_faq": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_faq.svg",
+   "source": "ConsumerApp"
+  },
+  "account_language": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_language.svg",
+   "source": "ConsumerApp"
+  },
+  "account_logout": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_logout.svg",
+   "source": "ConsumerApp"
+  },
+  "account_orders": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_orders.svg",
+   "source": "ConsumerApp"
+  },
+  "account_password": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_password.svg",
+   "source": "ConsumerApp"
+  },
+  "account_profile": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_profile.svg",
+   "source": "ConsumerApp"
+  },
+  "account_refer": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_refer.svg",
+   "source": "ConsumerApp"
+  },
+  "account_tickets": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_tickets.svg",
+   "source": "ConsumerApp"
+  },
+  "account_wallet": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/account_wallet.svg",
+   "source": "ConsumerApp"
+  },
+  "building": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/building.svg",
+   "source": "ConsumerApp"
+  },
+  "calendar": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/calendar.svg",
+   "source": "ConsumerApp"
+  },
+  "changepay_coin": {
+   "category": "changepay",
+   "themeable": false,
+   "path": "changepay/changepay_coin.svg",
+   "source": "ConsumerApp"
+  },
+  "facebook": {
+   "category": "social",
+   "themeable": false,
+   "path": "social/facebook.svg",
+   "source": "ConsumerApp"
+  },
+  "faq": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/faq.svg",
+   "source": "ConsumerApp"
+  },
+  "food_egg": {
+   "category": "food",
+   "themeable": false,
+   "path": "food/food_egg.svg",
+   "source": "ConsumerApp"
+  },
+  "food_non_veg": {
+   "category": "food",
+   "themeable": false,
+   "path": "food/food_non_veg.svg",
+   "source": "ConsumerApp"
+  },
+  "food_veg": {
+   "category": "food",
+   "themeable": false,
+   "path": "food/food_veg.svg",
+   "source": "ConsumerApp"
+  },
+  "google-pay": {
+   "category": "payments",
+   "themeable": false,
+   "path": "payments/google-pay.svg",
+   "source": "ConsumerApp"
+  },
+  "instagram": {
+   "category": "social",
+   "themeable": false,
+   "path": "social/instagram.svg",
+   "source": "ConsumerApp"
+  },
+  "language": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/language.svg",
+   "source": "ConsumerApp"
+  },
+  "location": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/location.svg",
+   "source": "ConsumerApp"
+  },
+  "logout": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/logout.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_call": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_call.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_check": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_check.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_check_circle_outline": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_check_circle_outline.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_content_copy": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_content_copy.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_do_not_disturb_on": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_do_not_disturb_on.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_forward_to_inbox": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_forward_to_inbox.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_grid_view": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_grid_view.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_headset_mic": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_headset_mic.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_location_on": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_location_on.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_mail": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_mail.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_moped": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_moped.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_payments": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_payments.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_percent": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_percent.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_playlist_add": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_playlist_add.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_progress_activity": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_progress_activity.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_redeem": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_redeem.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_share": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_share.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_shopping_cart": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_shopping_cart.svg",
+   "source": "ConsumerApp"
+  },
+  "nexus_ai": {
+   "category": "changepay",
+   "themeable": false,
+   "path": "changepay/nexus_ai.svg",
+   "source": "ConsumerApp"
+  },
+  "order-server": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/order-server.svg",
+   "source": "ConsumerApp"
+  },
+  "password": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/password.svg",
+   "source": "ConsumerApp"
+  },
+  "phonepe": {
+   "category": "payments",
+   "themeable": false,
+   "path": "payments/phonepe.svg",
+   "source": "ConsumerApp"
+  },
+  "profile": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/profile.svg",
+   "source": "ConsumerApp"
+  },
+  "question-circle-outline": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/question-circle-outline.svg",
+   "source": "ConsumerApp"
+  },
+  "quiz_coin": {
+   "category": "changepay",
+   "themeable": false,
+   "path": "changepay/quiz_coin.svg",
+   "source": "ConsumerApp"
+  },
+  "razorpay": {
+   "category": "payments",
+   "themeable": false,
+   "path": "payments/razorpay.svg",
+   "source": "ConsumerApp"
+  },
+  "tiktok": {
+   "category": "social",
+   "themeable": false,
+   "path": "social/tiktok.svg",
+   "source": "ConsumerApp"
+  },
+  "twitter": {
+   "category": "social",
+   "themeable": false,
+   "path": "social/twitter.svg",
+   "source": "ConsumerApp"
+  },
+  "upi": {
+   "category": "payments",
+   "themeable": false,
+   "path": "payments/upi.svg",
+   "source": "ConsumerApp"
+  },
+  "wallet": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/wallet.svg",
+   "source": "ConsumerApp"
+  },
+  "whatsapp": {
+   "category": "social",
+   "themeable": false,
+   "path": "social/whatsapp.svg",
+   "source": "ConsumerApp"
+  },
+  "youtube": {
+   "category": "social",
+   "themeable": false,
+   "path": "social/youtube.svg",
+   "source": "ConsumerApp"
+  },
+  "ms_add": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_add.svg",
+   "source": "SellerApp"
+  },
+  "ms_check_circle": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_check_circle.svg",
+   "source": "SellerApp"
+  },
+  "ms_chevron_right": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_chevron_right.svg",
+   "source": "SellerApp"
+  },
+  "ms_close": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_close.svg",
+   "source": "SellerApp"
+  },
+  "ms_delete": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_delete.svg",
+   "source": "SellerApp"
+  },
+  "ms_download": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_download.svg",
+   "source": "SellerApp"
+  },
+  "ms_event": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_event.svg",
+   "source": "SellerApp"
+  },
+  "ms_expand_more": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_expand_more.svg",
+   "source": "SellerApp"
+  },
+  "ms_inbox": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_inbox.svg",
+   "source": "SellerApp"
+  },
+  "ms_info": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_info.svg",
+   "source": "SellerApp"
+  },
+  "ms_lock": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_lock.svg",
+   "source": "SellerApp"
+  },
+  "ms_pause": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_pause.svg",
+   "source": "SellerApp"
+  },
+  "ms_person": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_person.svg",
+   "source": "SellerApp"
+  },
+  "ms_photo_camera": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_photo_camera.svg",
+   "source": "SellerApp"
+  },
+  "ms_play_arrow": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_play_arrow.svg",
+   "source": "SellerApp"
+  },
+  "ms_print": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_print.svg",
+   "source": "SellerApp"
+  },
+  "ms_remove_shopping_cart": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_remove_shopping_cart.svg",
+   "source": "SellerApp"
+  },
+  "ms_schedule": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_schedule.svg",
+   "source": "SellerApp"
+  },
+  "ms_search": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_search.svg",
+   "source": "SellerApp"
+  },
+  "ms_sort": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_sort.svg",
+   "source": "SellerApp"
+  },
+  "ms_star": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_star.svg",
+   "source": "SellerApp"
+  },
+  "ms_store": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_store.svg",
+   "source": "SellerApp"
+  },
+  "ms_supervisor_account": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_supervisor_account.svg",
+   "source": "SellerApp"
+  },
+  "ms_view_list": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_view_list.svg",
+   "source": "SellerApp"
+  },
+  "ms_visibility": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_visibility.svg",
+   "source": "SellerApp"
+  },
+  "ms_visibility_off": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_visibility_off.svg",
+   "source": "SellerApp"
+  },
+  "ms_wallet": {
+   "category": "material",
+   "themeable": true,
+   "path": "material/ms_wallet.svg",
+   "source": "SellerApp"
+  },
+  "new": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/new.svg",
+   "source": "SellerApp"
+  },
+  "offer": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/offer.svg",
+   "source": "SellerApp"
+  },
+  "ondc_logo": {
+   "category": "payments",
+   "themeable": false,
+   "path": "payments/ondc_logo.svg",
+   "source": "SellerApp"
+  },
+  "product": {
+   "category": "outline",
+   "themeable": true,
+   "path": "outline/product.svg",
+   "source": "SellerApp"
+  }
+ }
+}

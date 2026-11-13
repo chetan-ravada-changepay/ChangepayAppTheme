@@ -2,6 +2,8 @@ library changepay_theme;
 
 import 'package:flutter/material.dart';
 
+export 'changepay_brand.dart';
+
 part 'package:changepay_theme/color_scheme.dart';
 part 'package:changepay_theme/theme_constants/theme_constants.dart';
 part 'package:changepay_theme/theme_constants/consumer_primary_theme.dart';
